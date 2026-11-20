@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-goat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="accent-goat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <pattern id="grid-goat" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#27272a" stroke-width="0.75" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad-goat)"/>
+  <rect width="800" height="450" fill="url(#grid-goat)"/>
+  <circle cx="400" cy="225" r="180" fill="#8b5cf6" opacity="0.1" filter="blur(80px)"/>
+
+  <g transform="translate(60, 50)">
+    <rect width="680" height="350" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1.5"/>
+    <rect width="680" height="38" rx="12" fill="#18181b"/>
+    <circle cx="24" cy="19" r="5" fill="#ef4444" opacity="0.8"/>
+    <circle cx="42" cy="19" r="5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="60" cy="19" r="5" fill="#10b981" opacity="0.8"/>
+    <text x="340" y="24" fill="#71717a" font-family="monospace" font-size="12" text-anchor="middle">goat-platform // web-product</text>
+
+    <!-- Centerpiece Brand -->
+    <text x="340" y="150" fill="url(#accent-goat)" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" text-anchor="middle" letter-spacing="4">G.O.A.T.</text>
+    <text x="340" y="185" fill="#f4f4f5" font-family="-apple-system, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Product &amp; Web Platform Initiative</text>
+    <text x="340" y="215" fill="#71717a" font-family="monospace" font-size="12" text-anchor="middle">[ Editable Project Slot • Ready for details &amp; live link ]</text>
+
+    <!-- Placeholder tags -->
+    <g transform="translate(140, 245)">
+      <rect x="0" y="0" width="110" height="28" rx="14" fill="#1f1b2e" stroke="#8b5cf6" stroke-opacity="0.5"/>
+      <text x="55" y="18" fill="#c084fc" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Web App</text>
+
+      <rect x="130" y="0" width="130" height="28" rx="14" fill="#1f1b2e" stroke="#8b5cf6" stroke-opacity="0.5"/>
+      <text x="195" y="18" fill="#c084fc" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Modern Stack</text>
+
+      <rect x="280" y="0" width="120" height="28" rx="14" fill="#1f1b2e" stroke="#8b5cf6" stroke-opacity="0.5"/>
+      <text x="340" y="18" fill="#c084fc" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Under Active Dev</text>
+    </g>
+  </g>
+</svg>

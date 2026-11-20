@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-gym" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="accent-gym" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <pattern id="grid-gym" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#27272a" stroke-width="0.75" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad-gym)"/>
+  <rect width="800" height="450" fill="url(#grid-gym)"/>
+  <circle cx="680" cy="300" r="160" fill="#f59e0b" opacity="0.08" filter="blur(70px)"/>
+
+  <g transform="translate(60, 50)">
+    <rect width="680" height="350" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1.5"/>
+    <rect width="680" height="38" rx="12" fill="#18181b"/>
+    <circle cx="24" cy="19" r="5" fill="#ef4444" opacity="0.8"/>
+    <circle cx="42" cy="19" r="5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="60" cy="19" r="5" fill="#10b981" opacity="0.8"/>
+    <text x="340" y="24" fill="#71717a" font-family="monospace" font-size="12" text-anchor="middle">fitness-platform // client-production</text>
+
+    <!-- Tag -->
+    <rect x="36" y="65" width="220" height="22" rx="4" fill="url(#accent-gym)" opacity="0.9"/>
+    <text x="46" y="80" fill="#09090b" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">FREELANCE WEB PLATFORM</text>
+
+    <!-- Mockup Hero for Gym Site -->
+    <rect x="36" y="105" width="380" height="85" rx="8" fill="#141417" stroke="#27272a"/>
+    <text x="54" y="135" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="16" font-weight="700">HIGH PERFORMANCE GYM &amp; FITNESS</text>
+    <text x="54" y="155" fill="#a1a1aa" font-family="-apple-system, sans-serif" font-size="11">Modern Responsive Design • Membership Conversion Funnel</text>
+    <rect x="54" y="165" width="80" height="15" rx="4" fill="#f59e0b"/>
+    <text x="94" y="176" fill="#09090b" font-family="-apple-system, sans-serif" font-size="8" font-weight="700" text-anchor="middle">JOIN NOW</text>
+
+    <!-- Features cards in preview -->
+    <rect x="36" y="205" width="180" height="95" rx="8" fill="#111216" stroke="#27272a"/>
+    <text x="50" y="230" fill="#fbbf24" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">CLIENT DELIVERABLE</text>
+    <text x="50" y="255" fill="#f4f4f5" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Business Focus</text>
+    <text x="50" y="278" fill="#71717a" font-family="monospace" font-size="9">Class Schedules &amp; Plans</text>
+
+    <rect x="236" y="205" width="180" height="95" rx="8" fill="#111216" stroke="#27272a"/>
+    <text x="250" y="230" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">PERFORMANCE</text>
+    <text x="250" y="255" fill="#f4f4f5" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Fast &amp; Responsive</text>
+    <text x="250" y="278" fill="#71717a" font-family="monospace" font-size="9">Mobile First Architecture</text>
+
+    <!-- Mobile view mockup on right side -->
+    <rect x="470" y="65" width="150" height="235" rx="14" fill="#09090b" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="520" y="73" width="50" height="4" rx="2" fill="#27272a"/>
+    <rect x="480" y="90" width="130" height="40" rx="6" fill="#1c1917"/>
+    <text x="545" y="114" fill="#fbbf24" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" text-anchor="middle">FITNESS PRO</text>
+    <rect x="480" y="140" width="130" height="15" rx="3" fill="#27272a"/>
+    <rect x="480" y="162" width="130" height="15" rx="3" fill="#27272a"/>
+    <rect x="480" y="184" width="130" height="15" rx="3" fill="#27272a"/>
+    <rect x="480" y="210" width="130" height="60" rx="4" fill="#121316"/>
+    <text x="545" y="245" fill="#a1a1aa" font-family="monospace" font-size="8" text-anchor="middle">Responsive View</text>
+  </g>
+</svg>

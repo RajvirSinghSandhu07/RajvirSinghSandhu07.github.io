@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Basic SEO Metadata -->
+  <title>Rajvir Singh Sandhu | Developer &amp; Problem Solver</title>
+  <meta name="description" content="Portfolio of Rajvir Singh Sandhu - Computer Science &amp; Engineering undergraduate specialising in AI/ML at Ramaiah Institute of Technology (MSRIT), Bengaluru.">
+  <meta name="keywords" content="Rajvir Singh Sandhu, Developer Portfolio, MSRIT, Ramaiah Institute of Technology, AI, ML, C++, Web Development, Bengaluru">
+  <meta name="author" content="Rajvir Singh Sandhu">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rajvir Singh Sandhu | Developer Portfolio">
+  <meta property="og:description" content="Computer Science (AI/ML) Undergraduate • Problem Solver • Builder based in Bengaluru.">
+  <meta property="og:image" content="assets/favicon.svg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Dark Background Gradients (Linear/Raycast style) -->
+  <div class="bg-ambient-layer" aria-hidden="true">
+    <div class="ambient-radial-glow"></div>
+    <div class="ambient-dot-grid"></div>
+  </div>
+
+  <!-- ========================================================================
+       NAVIGATION BAR
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Rajvir Singh Sandhu Home">
+        <div class="logo-badge">RS</div>
+        <div class="nav-logo-text">
+          <span class="nav-name">Rajvir Singh Sandhu</span>
+          <span class="nav-sub">CSE (AI/ML) • MSRIT</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#beyond-code" class="nav-link">Beyond Code</a>
+        <a href="#github" class="nav-link">GitHub</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Live status indicator -->
+        <div class="nav-status-pill" title="Status: Available for opportunities">
+          <span class="pulse-dot"></span>
+          <span>Open to collabs</span>
+        </div>
+
+        <!-- 
+          RESUME DOWNLOAD:
+          Replace 'assets/resume.pdf' with your actual resume PDF filename.
+        -->
+        <a href="assets/resume.pdf" class="btn-resume" download title="Download Resume (PDF)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile hamburger toggle -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         SECTION 1: HERO
+         ====================================================================== -->
+    <section class="section hero" id="hero">
+      <div class="container hero-content">
+        
+        <!-- Hero Left Column: Intro & Highlights -->
+        <div class="hero-left reveal-on-scroll">
+          <div class="hero-availability">
+            <span class="pulse-dot"></span>
+            <span>Open to learning opportunities and collaborations</span>
+          </div>
+
+          <div class="hero-name-badge">
+            <span class="hero-name">Rajvir Singh Sandhu</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Developer. <br>
+            Problem Solver. <br>
+            <span class="highlight">Builder.</span>
+          </h1>
+
+          <p class="hero-intro">
+            I'm a Computer Science undergraduate exploring software development, AI/ML and building products that solve real-world problems.
+          </p>
+
+          <!-- Authentic Information Grid -->
+          <div class="hero-meta-grid">
+            <div class="hero-meta-item">
+              <svg class="hero-meta-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              <div>
+                <span class="hero-meta-label">Institution</span>
+                <span class="hero-meta-val">Ramaiah Institute of Technology</span>
+              </div>
+            </div>
+
+            <div class="hero-meta-item">
+              <svg class="hero-meta-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              <div>
+                <span class="hero-meta-label">Academic Track</span>
+                <span class="hero-meta-val">CSE (AI/ML) • 3rd Semester</span>
+              </div>
+            </div>
+
+            <div class="hero-meta-item">
+              <svg class="hero-meta-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <span class="hero-meta-label">Location</span>
+                <span class="hero-meta-val">Bengaluru, India</span>
+              </div>
+            </div>
+
+            <div class="hero-meta-item">
+              <svg class="hero-meta-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <div>
+                <span class="hero-meta-label">Academic Standing</span>
+                <span class="hero-meta-val hero-meta-highlight">9.72 CGPA <span style="font-weight: normal; color: var(--text-tertiary); font-size: 0.75rem;">(1st Year Cumulative)</span></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+            
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+
+            <!-- 
+              RESUME LINK:
+              Point to your resume file in assets/ or Google Drive URL.
+            -->
+            <a href="assets/resume.pdf" class="btn btn-outline" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Hero Social Row -->
+          <div class="hero-social-row">
+            <!-- GITHUB LINK -->
+            <a href="https://github.com/RajvirSinghSandhu07" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile (@RajvirSinghSandhu07)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+
+            <!-- LINKEDIN LINK -->
+            <a href="https://www.linkedin.com/in/rajvir-singh-sandhu-5b324b2a5/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+
+            <!-- EMAIL LINK -->
+            <a href="mailto:rajvirssandhu007@gmail.com" class="social-icon-btn" title="Send Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Developer Config Card (Raycast/Linear aesthetic) -->
+        <div class="hero-right reveal-on-scroll">
+          <div class="hero-code-card">
+            <div class="code-card-header">
+              <div class="code-dots">
+                <span class="code-dot red"></span>
+                <span class="code-dot amber"></span>
+                <span class="code-dot green"></span>
+              </div>
+              <span class="code-title">rajvir.developer.json</span>
+              <span class="code-badge">v3.0.Semester</span>
+            </div>
+
+            <div class="code-card-body">
+              <div class="code-line"><span class="line-num">1</span><span><span class="code-token-keyword">{</span></span></div>
+              <div class="code-line"><span class="line-num">2</span><span>&nbsp;&nbsp;<span class="code-token-prop">"name"</span>: <span class="code-token-string">"Rajvir Singh Sandhu"</span>,</span></div>
+              <div class="code-line"><span class="line-num">3</span><span>&nbsp;&nbsp;<span class="code-token-prop">"degree"</span>: <span class="code-token-string">"B.E. Computer Science (AI/ML)"</span>,</span></div>
+              <div class="code-line"><span class="line-num">4</span><span>&nbsp;&nbsp;<span class="code-token-prop">"college"</span>: <span class="code-token-string">"Ramaiah Institute of Technology"</span>,</span></div>
+              <div class="code-line"><span class="line-num">5</span><span>&nbsp;&nbsp;<span class="code-token-prop">"currentFocus"</span>: [</span></div>
+              <div class="code-line"><span class="line-num">6</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-token-string">"DSA in C++"</span>,</span></div>
+              <div class="code-line"><span class="line-num">7</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-token-string">"Modern Web Development"</span>,</span></div>
+              <div class="code-line"><span class="line-num">8</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-token-string">"AI-Assisted Prototyping"</span></span></div>
+              <div class="code-line"><span class="line-num">9</span><span>&nbsp;&nbsp;],</span></div>
+              <div class="code-line"><span class="line-num">10</span><span>&nbsp;&nbsp;<span class="code-token-prop">"hackathons"</span>: {</span></div>
+              <div class="code-line"><span class="line-num">11</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-token-prop">"googleHackathon"</span>: <span class="code-token-string">"Omni-Link (Round 2 / Top 10)"</span>,</span></div>
+              <div class="code-line"><span class="line-num">12</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-token-prop">"smartIndiaHackathon"</span>: <span class="code-token-string">"Raksha-Block (Ongoing SIH 2026)"</span></span></div>
+              <div class="code-line"><span class="line-num">13</span><span>&nbsp;&nbsp;},</span></div>
+              <div class="code-line"><span class="line-num">14</span><span>&nbsp;&nbsp;<span class="code-token-prop">"interests"</span>: [</span></div>
+              <div class="code-line"><span class="line-num">15</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-token-string">"Indian Music Team (IMT)"</span>,</span></div>
+              <div class="code-line"><span class="line-num">16</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-token-string">"Sports &amp; Fitness"</span>,</span></div>
+              <div class="code-line"><span class="line-num">17</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-token-string">"Business Enablement"</span></span></div>
+              <div class="code-line"><span class="line-num">18</span><span>&nbsp;&nbsp;]</span></div>
+              <div class="code-line"><span class="line-num">19</span><span><span class="code-token-keyword">}</span></span></div>
+            </div>
+
+            <div class="code-card-footer">
+              <span class="status-active-badge">
+                <span class="pulse-dot"></span>
+                <span>Bengaluru, Karnataka (IST)</span>
+              </span>
+              <span>UTF-8 // JSON</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 2: ABOUT ME
+         ====================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>Background</span>
+          </div>
+          <h2 class="section-title">
+            <span class="text-gradient">A little about me.</span>
+          </h2>
+          <p class="section-description">
+            Undergraduate student, continuous learner, and builder grounded in Computer Science fundamentals.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Narrative Text Card -->
+          <div class="about-text-card reveal-on-scroll">
+            <p class="lead-p">
+              I'm a Computer Science and Engineering undergraduate specialising in Artificial Intelligence and Machine Learning at Ramaiah Institute of Technology.
+            </p>
+            <p>
+              I enjoy exploring technology, solving programming problems and turning ideas into working prototypes. My interests span software development, data structures and algorithms, AI-assisted development and building practical web applications.
+            </p>
+            <p>
+              Beyond academics, I actively participate in hackathons, partner with local businesses to build custom web systems, stay physically disciplined through sports, and explore musical expression as a member of the Indian Music Team (IMT).
+            </p>
+          </div>
+
+          <!-- Side Highlights Cards -->
+          <div class="about-side-cards reveal-on-scroll">
+            
+            <div class="about-highlight-card">
+              <div class="highlight-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div class="highlight-content">
+                <h4>Problem Solving &amp; DSA</h4>
+                <p>Sharpening analytical thinking through rigorous Data Structures and Algorithms practice in C++.</p>
+              </div>
+            </div>
+
+            <div class="about-highlight-card">
+              <div class="highlight-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <div class="highlight-content">
+                <h4>Hackathons &amp; Prototyping</h4>
+                <p>Thriving under tight timeframes to translate real-world problems into testable, deployed functional platforms.</p>
+              </div>
+            </div>
+
+            <div class="about-highlight-card">
+              <div class="highlight-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+              </div>
+              <div class="highlight-content">
+                <h4>Music, Sports &amp; Discipline</h4>
+                <p>Active member of the Indian Music Team (IMT) at MSRIT, regular sports practitioner, and commercial web builder.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 3: TECHNICAL SKILLS
+         ====================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+            <span>Technical Capabilities</span>
+          </div>
+          <h2 class="section-title">
+            <span class="text-gradient">Tools &amp; technologies.</span>
+          </h2>
+          <p class="section-description">
+            Honest overview of languages, frameworks, core CS concepts and workflows I build with.
+          </p>
+        </div>
+
+        <!-- Current Focus Callout Banner -->
+        <div class="skills-focus-banner reveal-on-scroll">
+          <div class="focus-banner-left">
+            <span class="focus-badge">Active Focus</span>
+            <div>
+              <span class="focus-banner-text">Currently Deepening: DSA in C++ &amp; Advanced JavaScript</span>
+              <div class="focus-banner-sub">Focusing on algorithmic efficiency, clean code architecture, and web application scalability.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grouped Skills Grid -->
+        <div class="skills-grid reveal-on-scroll">
+          
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Programming Languages</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">C++</span>
+                </div>
+                <span class="skill-focus-tag">Primary DSA</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">Python</span>
+                </div>
+                <span class="skill-focus-tag">AI / ML / Scripts</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">Java</span>
+                </div>
+                <span class="skill-focus-tag">OOP Fundamentals</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Web Development</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">HTML5</span>
+                </div>
+                <span class="skill-focus-tag">Semantic Structure</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">CSS3</span>
+                </div>
+                <span class="skill-focus-tag">Modern &amp; Responsive</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">JavaScript</span>
+                </div>
+                <span class="skill-focus-tag">Active Growth</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">Bootstrap</span>
+                </div>
+                <span class="skill-focus-tag">Component UI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Computer Science -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Computer Science</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">Data Structures &amp; Algorithms</span>
+                </div>
+                <span class="skill-focus-tag">Core</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">Object-Oriented Programming</span>
+                </div>
+                <span class="skill-focus-tag">OOP Concepts</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">Problem Solving</span>
+                </div>
+                <span class="skill-focus-tag">Algorithmic</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Tools & Technologies -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Tools &amp; Technologies</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">Git</span>
+                </div>
+                <span class="skill-focus-tag">Version Control</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">GitHub</span>
+                </div>
+                <span class="skill-focus-tag">Collaboration</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">VS Code</span>
+                </div>
+                <span class="skill-focus-tag">Primary Editor</span>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-name-wrap">
+                  <span class="skill-bullet"></span>
+                  <span class="skill-name">AI-Assisted Dev Tools</span>
+                </div>
+                <span class="skill-focus-tag">Workflow Speed</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 4: FEATURED PROJECTS
+         ====================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"/></svg>
+            <span>Portfolio</span>
+          </div>
+          <h2 class="section-title">
+            <span class="text-gradient">Featured projects.</span>
+          </h2>
+          <p class="section-description">
+            Selected hackathon builds, client deliverables, and technical prototypes. Clear labels and editable placeholders where development is underway.
+          </p>
+        </div>
+
+        <!-- Filter tabs for clean UX -->
+        <div class="projects-filter-bar reveal-on-scroll">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="hackathons">Hackathons &amp; AI</button>
+          <button class="filter-btn" data-filter="web">Web &amp; Client</button>
+          <button class="filter-btn" data-filter="apps">EdTech &amp; FinTech</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          
+          <!-- ==========================================
+               PROJECT 1: RAKSHA-BLOCK (SIH 2026)
+               ========================================== -->
+          <article class="project-card reveal-on-scroll" data-category="hackathons">
+            <div class="project-img-wrapper">
+              <img src="assets/images/raksha-block.png" alt="Raksha-Block AI-powered railway maintenance coordination dashboard">
+              <span class="project-category-tag">SIH 2026 • SIH26027</span>
+              <span class="project-status-badge">
+                <span class="pulse-dot"></span>
+                <span>Screening Cleared</span>
+              </span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Raksha-Block: AI Railway Maintenance</h3>
+              <p class="project-description">
+                Ongoing Smart India Hackathon (SIH 2026) prototype solving problem statement SIH26027. AI-powered maintenance block scheduling engine that eliminates railway disruptions by bundling track possession across Engineering, S&amp;T, and TRD.
+              </p>
+
+              <div class="project-meta-box">
+                <div class="project-meta-row">
+                  <span class="meta-label">Engine:</span>
+                  <span class="meta-value">Google OR-Tools CP-SAT constraint optimization solver</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">GIS Map:</span>
+                  <span class="meta-value">Delhi-Howrah Golden Corridor 2D Leaflet network visualization</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Milestone:</span>
+                  <span class="meta-value">Cleared college-level screening round for SIH 2026</span>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">CP-SAT Solver</span>
+                <span class="tech-tag">Leaflet GIS</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">SIH 2026</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/RajvirSinghSandhu07/Raksha_Block_2" target="_blank" rel="noopener noreferrer" class="btn-project-link" title="View Raksha-Block repository on GitHub">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>GitHub Repo</span>
+                </a>
+                <a href="https://raksha-block.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-project-link" style="border-color: rgba(99, 102, 241, 0.4); color: #818cf8;" title="Open live Raksha-Block portal on Vercel">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               PROJECT 2: OMNI LINK (GOOGLE HACKATHON R2)
+               ========================================== -->
+          <article class="project-card reveal-on-scroll" data-category="hackathons">
+            <div class="project-img-wrapper">
+              <img src="assets/images/omnilink.jpg" alt="Omni Link AI-powered humanitarian operations platform preview">
+              <span class="project-category-tag" style="background: rgba(56, 189, 248, 0.85); color: #09090b;">Google Hackathon R2</span>
+              <span class="project-status-badge">
+                <span class="pulse-dot"></span>
+                <span>Round 2 Selected</span>
+              </span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Omni Link: AI Humanitarian Logistics</h3>
+              <p class="project-description">
+                Built for Google Hackathon Round 2 by Team AlgoRythms. High-performance autonomous humanitarian operations platform that coordinates emergency relief, volunteer dispatch, and donor resources in real-time.
+              </p>
+
+              <div class="project-meta-box">
+                <div class="project-meta-row">
+                  <span class="meta-label">Dispatch HUD:</span>
+                  <span class="meta-value">Autonomous prompt parsing, proximity routing &amp; volunteer deployment</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Tactical Grid:</span>
+                  <span class="meta-value">Bengaluru mission hotspot map &amp; interactive partner network graph</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Achievement:</span>
+                  <span class="meta-value">Conceptualised &amp; progressed to Round 2 in Google Hackathon</span>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Next.js 14</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Framer Motion</span>
+                <span class="tech-tag">Recharts</span>
+                <span class="tech-tag">Google Hackathon</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/RajvirSinghSandhu07/Omni-Link" target="_blank" rel="noopener noreferrer" class="btn-project-link" title="View Omni-Link on GitHub">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>GitHub Repo</span>
+                </a>
+                <a href="https://omni-link-3.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-project-link" style="border-color: rgba(56, 189, 248, 0.4); color: #38bdf8;" title="Open live Omni-Link deployment on Vercel">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               PROJECT 3: ELEVATE (EDTECH ACADEMIC COMPANION)
+               ========================================== -->
+          <article class="project-card reveal-on-scroll" data-category="apps">
+            <div class="project-img-wrapper">
+              <img src="assets/images/elevate.png" alt="Elevate AI-powered student academic dashboard preview">
+              <span class="project-category-tag" style="background: rgba(99, 102, 241, 0.85); color: #ffffff;">EdTech Ecosystem</span>
+              <span class="project-status-badge">
+                <span class="pulse-dot"></span>
+                <span>Live Vercel</span>
+              </span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Elevate: Academic Productivity</h3>
+              <p class="project-description">
+                Student-centric academic companion designed using Design Thinking methodology to eliminate exam burnout, track syllabus completion, and strategize semester performance.
+              </p>
+
+              <div class="project-meta-box">
+                <div class="project-meta-row">
+                  <span class="meta-label">Key Tool:</span>
+                  <span class="meta-value">Proprietary "CGPA Fixer / Planner" with target score modeling</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Features:</span>
+                  <span class="meta-value">Smart Planner, Syllabus Tracker, Focus Timer &amp; AI Doubt Support</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Alignment:</span>
+                  <span class="meta-value">Engineered to support UN SDG 4 — Quality Education</span>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Design Thinking</span>
+                <span class="tech-tag">Vercel</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/RajvirSinghSandhu07/Elevate" target="_blank" rel="noopener noreferrer" class="btn-project-link" title="View Elevate repository on GitHub">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>GitHub Repo</span>
+                </a>
+                <a href="https://elevate-weld-eight.vercel.app/dashboard" target="_blank" rel="noopener noreferrer" class="btn-project-link" style="border-color: rgba(99, 102, 241, 0.4); color: #818cf8;" title="Open live Elevate dashboard on Vercel">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               PROJECT 4: GOAT GAMING CAFE
+               ========================================== -->
+          <article class="project-card reveal-on-scroll" data-category="web">
+            <div class="project-img-wrapper">
+              <img src="assets/images/goat-cafe.png" alt="GOAT Gaming Cafe Hall of Legends leaderboard and booking portal">
+              <span class="project-category-tag" style="background: rgba(16, 185, 129, 0.85); color: #09090b;">Commercial Web</span>
+              <span class="project-status-badge">
+                <span class="pulse-dot"></span>
+                <span>Live Vercel</span>
+              </span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">GOAT Gaming Cafe Portal</h3>
+              <p class="project-description">
+                A responsive multi-branch web portal engineered for a premier local esports gaming cafe in Bengaluru to streamline peak-hour player traffic and boost customer retention.
+              </p>
+
+              <div class="project-meta-box">
+                <div class="project-meta-row">
+                  <span class="meta-label">Features:</span>
+                  <span class="meta-value">Live console availability grid across New BEL Road &amp; Jayanagar branches</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Gamification:</span>
+                  <span class="meta-value">"Hall of Legends" competitive leaderboard &amp; inter-branch rivalry</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Conversions:</span>
+                  <span class="meta-value">Direct WhatsApp VIP slot reservations for peak game launches</span>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5 / CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">WhatsApp API</span>
+                <span class="tech-tag">Esports UI</span>
+                <span class="tech-tag">Vercel</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/RajvirSinghSandhu07/goat-ed-cafe" target="_blank" rel="noopener noreferrer" class="btn-project-link" title="View GOAT Gaming Cafe source code on GitHub">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>GitHub Repo</span>
+                </a>
+                <a href="https://goat-ed-cafe-mark2.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-project-link" style="border-color: rgba(16, 185, 129, 0.4); color: #34d399;" title="Open live GOAT Gaming Cafe portal on Vercel">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               PROJECT 5: GYM WEBSITE PLATFORM
+               ========================================== -->
+          <article class="project-card reveal-on-scroll" data-category="web">
+            <div class="project-img-wrapper">
+              <img src="assets/images/gym-web.jpg" alt="Gym and Fitness membership platform hero screen">
+              <span class="project-category-tag" style="background: rgba(245, 158, 11, 0.85); color: #09090b;">Fitness Web</span>
+              <span class="project-status-badge">
+                <span class="pulse-dot"></span>
+                <span>Live Vercel</span>
+              </span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Fitness &amp; Membership Web Platform</h3>
+              <p class="project-description">
+                A modern 5-page fitness business platform featuring interactive membership plans, student discounts, BMI calculator, trainer profiles, member transformations, and WhatsApp-integrated bookings.
+              </p>
+
+              <div class="project-meta-box">
+                <div class="project-meta-row">
+                  <span class="meta-label">Interactive:</span>
+                  <span class="meta-value">Membership comparison, student discounts &amp; live BMI calculator</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Conversion:</span>
+                  <span class="meta-value">Trainer profile showcases, transformation gallery &amp; WhatsApp trial</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Architecture:</span>
+                  <span class="meta-value">5 interconnected responsive pages with high-performance dark theme</span>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3 Grid / Flex</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">WhatsApp Funnel</span>
+                <span class="tech-tag">Vercel</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/RajvirSinghSandhu07/gym-web" target="_blank" rel="noopener noreferrer" class="btn-project-link" title="View Gym Website repository on GitHub">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>GitHub Repo</span>
+                </a>
+                <a href="https://gym-web-ecru-iota.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-project-link" style="border-color: rgba(245, 158, 11, 0.4); color: #fbbf24;" title="Open live Gym Web platform on Vercel">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               PROJECT 6: FINMATE (SMART MONEY COMPANION)
+               ========================================== -->
+          <article class="project-card reveal-on-scroll" data-category="apps">
+            <div class="project-img-wrapper">
+              <img src="assets/images/finmate.jpg" alt="FinMate Smart Money Companion user interface preview">
+              <span class="project-category-tag" style="background: rgba(14, 165, 233, 0.85); color: #09090b;">FinTech App</span>
+              <span class="project-status-badge">
+                <span class="pulse-dot"></span>
+                <span>Live Vercel</span>
+              </span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">FinMate: Smart Money Companion</h3>
+              <p class="project-description">
+                Personal finance companion designed to encourage smart money management among students. Features multi-pocket budgeting, peer expense splitting, and gamified saving milestones.
+              </p>
+
+              <div class="project-meta-box">
+                <div class="project-meta-row">
+                  <span class="meta-label">Budgeting:</span>
+                  <span class="meta-value">Customizable spending "Pockets" (Food, Travel, Essentials)</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Transactions:</span>
+                  <span class="meta-value">Seamless Pay, Transfer, and Group Expense Split workflows</span>
+                </div>
+                <div class="project-meta-row">
+                  <span class="meta-label">Habit Engine:</span>
+                  <span class="meta-value">Daily financial tips, milestone badges &amp; reward points</span>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">State Management</span>
+                <span class="tech-tag">FinTech UX</span>
+                <span class="tech-tag">Vercel</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/RajvirSinghSandhu07/FinMate" target="_blank" rel="noopener noreferrer" class="btn-project-link" title="View FinMate repository on GitHub">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>GitHub Repo</span>
+                </a>
+                <a href="https://fin-mate-two.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-project-link" style="border-color: rgba(14, 165, 233, 0.4); color: #38bdf8;" title="Open live FinMate web app on Vercel">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 5: HACKATHONS & ACHIEVEMENTS TIMELINE
+         ====================================================================== -->
+    <section class="section" id="achievements">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            <span>Milestones</span>
+          </div>
+          <h2 class="section-title">
+            <span class="text-gradient">Hackathons &amp; achievements.</span>
+          </h2>
+          <p class="section-description">
+            Key competitive milestones, selections, and academic accomplishments. Documented authentically without fabricated dates or metrics.
+          </p>
+        </div>
+
+        <div class="timeline-wrap reveal-on-scroll">
+          
+          <!-- Milestone 1: Google Hackathon -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <div class="timeline-node-inner"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Google Hackathon — Round 2 (Top 10 Finalist)</h3>
+                <span class="timeline-badge">Omni-Link Platform</span>
+              </div>
+              <div class="timeline-organization">Google Developer Community / Hackathon Platform</div>
+              <p class="timeline-desc">
+                Built <strong>Omni Link</strong> (AI-powered autonomous humanitarian logistics platform) with Team AlgoRythms. Successfully cleared Round 1 to advance to Round 2, finishing close to the top 10 teams.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 2: Smart India Hackathon (SIH 2026) -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <div class="timeline-node-inner"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Smart India Hackathon (SIH 2026) — Ongoing</h3>
+                <span class="timeline-badge">Cleared Intra-College Screening</span>
+              </div>
+              <div class="timeline-organization">Internal College Evaluation • Ramaiah Institute of Technology</div>
+              <p class="timeline-desc">
+                Cleared institutional screening with <strong>Raksha-Block</strong> (SIH26027), an AI-driven railway maintenance scheduling engine powered by Google OR-Tools CP-SAT and Leaflet GIS mapping. Currently in progress awaiting next-round announcements.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 3: Additional Hackathons -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <div class="timeline-node-inner"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Competitive Collegiate Hackathons</h3>
+                <span class="timeline-badge">Active Participant</span>
+              </div>
+              <div class="timeline-organization">2–3 Additional Inter-College &amp; Open Hackathons</div>
+              <p class="timeline-desc">
+                Consistently participating in hackathons to test software development workflows under high-pressure sprints, build real prototypes with teammates, and network with fellow builders.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 4: Academic Excellence -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <div class="timeline-node-inner"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Academic Distinction — 9.72 CGPA</h3>
+                <span class="timeline-badge academic-badge">1st Year Cumulative Performance</span>
+              </div>
+              <div class="timeline-organization">Ramaiah Institute of Technology (MSRIT), Bengaluru</div>
+              <p class="timeline-desc">
+                Earned a 9.72 cumulative first-year CGPA (with a 9.85 in Semester 1) while pursuing Bachelor of Engineering in Computer Science &amp; Engineering (AI/ML).
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 6: BEYOND CODE (MUSIC, SPORTS & BUSINESS ENABLEMENT)
+         ====================================================================== -->
+    <section class="section" id="beyond-code">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag" style="background: rgba(139, 92, 246, 0.08); border-color: rgba(139, 92, 246, 0.25); color: var(--accent-violet);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><polygon points="12 6 12 12 16 14"/></svg>
+            <span>Interests &amp; Pursuits</span>
+          </div>
+          <h2 class="section-title">
+            <span class="text-gradient">Beyond code.</span>
+          </h2>
+          <p class="section-description">
+            Software engineering thrives on discipline and creative perspective. Outside of algorithms and coursework, music, sports, and helping local businesses are my core pursuits.
+          </p>
+        </div>
+
+        <div class="beyond-code-grid reveal-on-scroll">
+          
+          <div class="beyond-card">
+            <div class="beyond-header">
+              <div class="beyond-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+              </div>
+              <h3 class="beyond-title">Indian Music Team (IMT)</h3>
+            </div>
+            <span class="beyond-role-tag">Selected Team Member</span>
+            <p class="beyond-desc">
+              Selected through college-wide auditions as an official member of the Indian Music Team at Ramaiah Institute of Technology, collaborating on musical compositions and ensemble performances.
+            </p>
+          </div>
+
+          <div class="beyond-card">
+            <div class="beyond-header">
+              <div class="beyond-icon-box" style="background: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.25); color: #34d399;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+              </div>
+              <h3 class="beyond-title">Sports &amp; Physical Discipline</h3>
+            </div>
+            <span class="beyond-role-tag" style="background: rgba(16, 185, 129, 0.12); color: #34d399;">Fitness &amp; Endurance</span>
+            <p class="beyond-desc">
+              Regularly playing sports and maintaining athletic discipline. Physical fitness builds mental resilience, endurance, and consistency that carry directly into tackling complex engineering problems.
+            </p>
+          </div>
+
+          <div class="beyond-card">
+            <div class="beyond-header">
+              <div class="beyond-icon-box" style="background: rgba(56, 189, 248, 0.1); border-color: rgba(56, 189, 248, 0.25); color: #38bdf8;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <h3 class="beyond-title">Business Tech Enablement</h3>
+            </div>
+            <span class="beyond-role-tag" style="background: rgba(56, 189, 248, 0.12); color: #38bdf8;">Entrepreneurial Building</span>
+            <p class="beyond-desc">
+              Partnering with local businesses in Bengaluru (such as gyms and esports gaming cafes) to build practical web applications that solve real footfall, booking, and customer retention challenges.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 7: GITHUB & DEVELOPMENT ACTIVITY
+         ====================================================================== -->
+    <section class="section" id="github">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <span>Open Source &amp; Code</span>
+          </div>
+          <h2 class="section-title">
+            <span class="text-gradient">Development activity.</span>
+          </h2>
+          <p class="section-description">
+            Tracking code repositories, problem-solving repositories, and collaborative software projects on GitHub.
+          </p>
+        </div>
+
+        <div class="github-card reveal-on-scroll">
+          <div class="github-header-row">
+            <div class="github-profile-snippet">
+              <div class="github-avatar-ph">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div class="github-user-info">
+                <h3>Rajvir Singh Sandhu</h3>
+                <span>@RajvirSinghSandhu07 &bull; GitHub</span>
+              </div>
+            </div>
+
+            <a href="https://github.com/RajvirSinghSandhu07" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="exploreGithubBtn">
+              <span>Explore My Repositories</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <!-- Pinned Focus Repositories (Authentic representation) -->
+          <div class="github-pinned-grid">
+            
+            <a href="https://github.com/RajvirSinghSandhu07/Raksha_Block_2" target="_blank" rel="noopener noreferrer" class="pinned-repo-card" style="text-decoration: none; color: inherit;">
+              <div class="pinned-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                <span>Raksha_Block_2</span>
+              </div>
+              <p class="pinned-desc">
+                AI-powered railway maintenance coordination engine solving SIH26027 with Google OR-Tools CP-SAT constraint optimization and Leaflet GIS.
+              </p>
+              <div class="pinned-meta">
+                <span class="repo-lang"><span class="lang-circle lang-py"></span> Python / FastAPI</span>
+                <span>SIH 2024</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/RajvirSinghSandhu07/Omni-Link" target="_blank" rel="noopener noreferrer" class="pinned-repo-card" style="text-decoration: none; color: inherit;">
+              <div class="pinned-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                <span>Omni-Link</span>
+              </div>
+              <p class="pinned-desc">
+                AI-driven humanitarian logistics operations platform featuring autonomous dispatch HUD, tactical overlay, and mission graphs.
+              </p>
+              <div class="pinned-meta">
+                <span class="repo-lang"><span class="lang-circle lang-js"></span> Next.js / React</span>
+                <span>Live Demo</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/RajvirSinghSandhu07/Elevate" target="_blank" rel="noopener noreferrer" class="pinned-repo-card" style="text-decoration: none; color: inherit;">
+              <div class="pinned-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                <span>Elevate</span>
+              </div>
+              <p class="pinned-desc">
+                Centralized academic companion for students featuring smart planner, syllabus tracking, focus timer, and CGPA score modeling.
+              </p>
+              <div class="pinned-meta">
+                <span class="repo-lang"><span class="lang-circle lang-js"></span> TypeScript / React</span>
+                <span>Live Demo</span>
+              </div>
+            </a>
+
+          </div>
+
+          <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-tertiary); text-align: center; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+            Visit my active GitHub profile at <a href="https://github.com/RajvirSinghSandhu07" target="_blank" rel="noopener noreferrer" style="color: var(--accent-secondary); text-decoration: underline;">github.com/RajvirSinghSandhu07</a> for commit history and open source repositories.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 8: CONTACT
+         ====================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Get in Touch</span>
+          </div>
+          <h2 class="section-title">
+            <span class="text-gradient">Have an idea?</span> <br>
+            <span class="accent-gradient">Let's build something.</span>
+          </h2>
+          <p class="section-description">
+            I'm always open to discussing internships, collaborative hackathons, freelance web projects, or simply talking about AI and software architecture.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Methods Cards -->
+          <div class="contact-info-col reveal-on-scroll">
+            
+            <!-- Email Item -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <span class="contact-label">Email (Personal &amp; Academic)</span>
+                  <div class="contact-value" id="emailDisplay">rajvirssandhu007@gmail.com</div>
+                  <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-tertiary); margin-top: 3px;">
+                    College: 1ms25ci099@msrit.edu
+                  </div>
+                </div>
+              </div>
+              <button class="btn-copy" id="copyEmailBtn" data-copy="rajvirssandhu007@gmail.com" title="Copy email address to clipboard">
+                Copy
+              </button>
+            </div>
+
+            <!-- LinkedIn Item -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </div>
+                <div>
+                  <span class="contact-label">LinkedIn</span>
+                  <div class="contact-value">Rajvir Singh Sandhu</div>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/rajvir-singh-sandhu-5b324b2a5/" target="_blank" rel="noopener noreferrer" class="btn-copy" style="text-decoration: none;">
+                Connect
+              </a>
+            </div>
+
+            <!-- GitHub Item -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </div>
+                <div>
+                  <span class="contact-label">GitHub</span>
+                  <div class="contact-value">@RajvirSinghSandhu07</div>
+                </div>
+              </div>
+              <a href="https://github.com/RajvirSinghSandhu07" target="_blank" rel="noopener noreferrer" class="btn-copy" style="text-decoration: none;">
+                Follow
+              </a>
+            </div>
+
+            <!-- Location Badge -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <span class="contact-label">Location</span>
+                  <div class="contact-value">Bengaluru, Karnataka, India</div>
+                </div>
+              </div>
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-secondary);">UTC+05:30</span>
+            </div>
+
+          </div>
+
+          <!-- Functional Zero-Backend Contact Form -->
+          <div class="contact-form-card reveal-on-scroll">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="senderName" class="form-label">Your Name</label>
+                <input type="text" id="senderName" class="form-input" placeholder="e.g. Alex Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Your Email</label>
+                <input type="email" id="senderEmail" class="form-input" placeholder="e.g. alex@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject" class="form-label">Subject</label>
+                <input type="text" id="senderSubject" class="form-input" placeholder="e.g. Hackathon collaboration / Freelance project" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Message</label>
+                <textarea id="senderMessage" class="form-textarea" placeholder="Tell me about what you are working on or what you would like to build..." required></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-primary" id="sendMessageBtn">
+                  <span>Send Message</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+                <span class="form-note">Launches your email client with your message prefilled</span>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      
+      <div class="footer-left">
+        <div class="footer-built-by">Designed &amp; built by Rajvir Singh Sandhu.</div>
+        <div class="footer-sub">
+          Computer Science &amp; Engineering (AI/ML) &bull; Ramaiah Institute of Technology &bull; &copy; <span id="currentYear">2026</span>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/RajvirSinghSandhu07" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/rajvir-singh-sandhu-5b324b2a5/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <a href="mailto:rajvirssandhu007@gmail.com" class="footer-link">Email</a>
+        <a href="#hero" class="back-to-top" title="Back to top" aria-label="Back to top">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Toast Notification element for copy confirmation -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="polite">
+    <svg class="toast-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
