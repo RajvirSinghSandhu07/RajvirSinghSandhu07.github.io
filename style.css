@@ -1815,3 +1815,56 @@ ul, ol {
     align-items: flex-start;
   }
 }
+
+@media (max-width: 480px) {
+  :root {
+    --section-padding-y: 64px;
+  }
+
+  .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .hero {
+    padding-top: calc(var(--nav-height) + 32px);
+    padding-bottom: 56px;
+  }
+
+  .hero-headline {
+    font-size: 2.15rem;
+  }
+
+  .nav-logo-text .nav-sub {
+    display: none;
+  }
+
+  .project-card-body {
+    padding: 20px 16px;
+  }
+
+  .project-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-actions .btn {
+    width: 100%;
+  }
+
+  .timeline {
+    padding-left: 20px;
+  }
+
+  .timeline-marker {
+    left: -28px;
+  }
+
+  .toast-notification {
+    left: 16px;
+    right: 16px;
+    bottom: 20px;
+    justify-content: center;
+    font-size: 0.8125rem;
+  }
+}
