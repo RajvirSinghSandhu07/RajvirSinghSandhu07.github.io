@@ -154,11 +154,11 @@ def create_resume(output_path):
     edu_table_data = [
         [
             Paragraph("<b>Ramaiah Institute of Technology (MSRIT)</b> — Bengaluru, India", style_bold_left),
-            Paragraph("Dec 2023 – Present (3rd Semester)", style_right)
+            Paragraph("Sept 2025 – Present (3rd Semester)", style_right)
         ],
         [
             Paragraph("<i>B.E. in Computer Science and Engineering (Artificial Intelligence & Machine Learning)</i>", style_sub),
-            Paragraph("<b>Cumulative 1st Year CGPA: 9.72 / 10.0</b> (Sem 1: 9.85)", style_right_bold)
+            Paragraph("<b>Cumulative 1st Year CGPA: 9.72 / 10.0</b>", style_right_bold)
         ]
     ]
     t_edu = Table(edu_table_data, colWidths=[380, 160])
@@ -213,12 +213,12 @@ def create_resume(output_path):
     # Project 2: Omni Link
     p2_head = [
         [Paragraph("<b>Omni Link: Autonomous Humanitarian Logistics Platform</b> | <i>Next.js 14, Tailwind, Framer Motion, Recharts</i>", style_bold_left),
-         Paragraph("<b>Google Hackathon — Top 10 Finalist</b>", style_right_bold)]
+         Paragraph("<b>Google Hackathon (MSRIT) — Top 10</b>", style_right_bold)]
     ]
     t_p2 = Table(p2_head, colWidths=[370, 170])
     t_p2.setStyle(TableStyle([('VALIGN', (0,0), (-1,-1), 'TOP'), ('PADDING', (0,0), (-1,-1), 0)]))
     story.append(t_p2)
-    story.append(Paragraph("&bull; Architected an autonomous emergency aid operations dashboard for Team AlgoRythms in Google Hackathon, advancing to Round 2.", style_bullet))
+    story.append(Paragraph("&bull; Architected an autonomous emergency aid operations dashboard for Team AlgoRythms in MSRIT's intra-college Google Hackathon, advancing to Round 2.", style_bullet))
     story.append(Paragraph("&bull; Implemented an Autonomous Dispatch HUD with prompt parsing, proximity routing, Bengaluru crisis hotspot overlay, and interactive partner network graphs.", style_bullet))
     story.append(Spacer(1, 3))
 
@@ -261,9 +261,9 @@ def create_resume(output_path):
     story.append(Paragraph("Honors, Achievements &amp; Extracurricular Leadership", style_section_title))
     story.append(HRFlowable(width="100%", thickness=0.5, color=C_SECONDARY, spaceBefore=0, spaceAfter=4))
 
-    story.append(Paragraph("&bull; <b>Google Hackathon Finalist:</b> Successfully cleared Round 1 and advanced to Round 2, finishing near the top 10 bracket with Team AlgoRythms.", style_bullet))
+    story.append(Paragraph("&bull; <b>Google Hackathon Finalist (MSRIT):</b> Cleared Round 1 and advanced to Round 2 (Top 10 finish) in the intra-college Google Hackathon at MSRIT.", style_bullet))
     story.append(Paragraph("&bull; <b>Smart India Hackathon (SIH 2026):</b> Cleared intra-college screening with project Raksha-Block at Ramaiah Institute of Technology.", style_bullet))
-    story.append(Paragraph("&bull; <b>Academic Distinction:</b> Achieved a 9.72 cumulative first-year CGPA (Semester 1: 9.85) at MSRIT across foundational engineering coursework.", style_bullet))
+    story.append(Paragraph("&bull; <b>Academic Distinction:</b> Achieved a 9.72 cumulative first-year CGPA at MSRIT across foundational engineering coursework.", style_bullet))
     story.append(Paragraph("&bull; <b>Indian Music Team (IMT) — MSRIT:</b> Selected through rigorous college auditions as an official member, actively performing in musical compositions and ensemble events.", style_bullet))
     story.append(Paragraph("&bull; <b>Sports &amp; Athletic Discipline:</b> Dedicated regular sports and fitness practitioner; cultivates physical stamina, mental focus, and persistence.", style_bullet))
 

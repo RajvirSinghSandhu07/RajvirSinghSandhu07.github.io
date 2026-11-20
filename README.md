@@ -31,7 +31,7 @@ Personal Portfolio/
 | Project | Type / Milestone | GitHub Repository | Live Vercel Deployment |
 | :--- | :--- | :--- | :--- |
 | **Raksha-Block** | SIH 2026 (College Screening Cleared) | [RajvirSinghSandhu07/Raksha_Block_2](https://github.com/RajvirSinghSandhu07/Raksha_Block_2) | [raksha-block.vercel.app](https://raksha-block.vercel.app) |
-| **Omni Link** | Google Hackathon Round 2 | [RajvirSinghSandhu07/Omni-Link](https://github.com/RajvirSinghSandhu07/Omni-Link) | [omni-link-3.vercel.app](https://omni-link-3.vercel.app/) |
+| **Omni Link** | Google Hackathon (MSRIT) Round 2 / Top 10 | [RajvirSinghSandhu07/Omni-Link](https://github.com/RajvirSinghSandhu07/Omni-Link) | [omni-link-3.vercel.app](https://omni-link-3.vercel.app/) |
 | **Elevate** | EdTech Academic Ecosystem | [RajvirSinghSandhu07/Elevate](https://github.com/RajvirSinghSandhu07/Elevate) | [elevate-weld-eight.vercel.app/dashboard](https://elevate-weld-eight.vercel.app/dashboard) |
 | **GOAT Gaming Cafe** | Esports Commercial Web Portal | [RajvirSinghSandhu07/goat-ed-cafe](https://github.com/RajvirSinghSandhu07/goat-ed-cafe) | [goat-ed-cafe-mark2.vercel.app](https://goat-ed-cafe-mark2.vercel.app/) |
 | **Gym Website** | Fitness & Membership Platform | [RajvirSinghSandhu07/gym-web](https://github.com/RajvirSinghSandhu07/gym-web) | [gym-web-ecru-iota.vercel.app](https://gym-web-ecru-iota.vercel.app/) |
